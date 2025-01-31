@@ -35,3 +35,4 @@ project_front/node_modules
 # Ignore the backend build process if it's separate (e.g., transpiled code)
 back_project/dist
 back_project/node_modules
+back_project/package-lock.json
