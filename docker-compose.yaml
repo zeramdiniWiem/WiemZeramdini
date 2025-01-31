@@ -1,6 +1,23 @@
 version: '3'
 
 services:
+  jenkins:
+    image: jenkins/jenkins
+    volumes:
+      - ./jenkins:/var/jenkins_home:rw
+      - ./war:/mnt/:rw
+    ports:
+      - 8080:8080
+    container_name: jenkins
+
+  tomcat:
+    image: mzain/tomcat
+    ports:
+      - 7777:8080
+    container_name: tomcat
+    volumes:
+      - ./war:/usr/local/tomcat/webapps
+
   reverseproxy:
     build: ./reverse-proxy
     ports:
@@ -12,8 +29,6 @@ services:
 
   app1:
     build: ./app1
-    ports: 
-      - 8080:80
     container_name: app1
     deploy:
       resources:
@@ -26,8 +41,6 @@ services:
 
   app2:
     build: ./app2
-    ports:
-      - 9090:80
     container_name: app2
     deploy:
       resources:
