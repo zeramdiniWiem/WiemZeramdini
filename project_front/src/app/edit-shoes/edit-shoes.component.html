@@ -1,0 +1,34 @@
+<div class="container">
+  <form [formGroup]="formShoes" (ngSubmit)="submit()">
+    <h3 class="text-muted text-center my-4">Modifier chaussure</h3>
+    <div class="form-group">
+      <label for="marque">Marque</label>
+      <input formControlName="marque" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="prix">Prix</label>
+      <input formControlName="prix" class="form-control" type="number">
+    </div>
+    <div class="form-group">
+      <label for="pointure">Pointure</label>
+      <input formControlName="pointure" class="form-control" type="number">
+    </div>
+    <div class="form-group">
+      <label for="couleur">Couleur</label>
+      <input formControlName="couleur" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="magasin">Magasin</label>
+      <select formControlName="magasin" class="form-control">
+        <option *ngFor="let magasin of listMagasins" [ngValue]="magasin.id">{{ magasin.nom }}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="image">Image</label>
+      <input formControlName="image" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-outline-primary mt-2">Modifier</button>
+    </div>
+  </form>
+</div>

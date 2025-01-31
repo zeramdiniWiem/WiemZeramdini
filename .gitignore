@@ -1,0 +1,37 @@
+# Node.js dependencies
+/node_modules
+
+# Build directories
+/dist
+/build
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+
+# Docker files
+.docker
+docker-compose.override.yml
+
+# IDE or editor files
+.vscode
+.idea
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package lock files (if you want to avoid locking dependencies)
+package-lock.json
+yarn.lock
+
+# Ignore any files related to the frontend build process (if needed)
+project_front/dist
+project_front/node_modules
+
+# Ignore the backend build process if it's separate (e.g., transpiled code)
+back_project/dist
+back_project/node_modules

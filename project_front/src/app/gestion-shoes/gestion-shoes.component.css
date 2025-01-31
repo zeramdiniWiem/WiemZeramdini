@@ -1,0 +1,64 @@
+.navbar {
+  background-color: #ff80ab;
+}
+
+.navbar-brand {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar button {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: #fff;
+  color: #ff80ab;
+}
+
+.table {
+  background-color: #f8f9fa;
+}
+
+.table th,
+.table td {
+  border-color: #dee2e6;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #dee2e6;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.table button.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.table button.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table button.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.table button.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}

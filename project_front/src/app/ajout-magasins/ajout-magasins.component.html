@@ -1,0 +1,22 @@
+<form [formGroup]="formMagasins" (ngSubmit)="submit()" class="my-4">
+  <h3 class="text-muted text-center my-4">Ajouter magasin</h3>
+  <div class="form-group">
+    <label for="nom">Nom</label>
+    <input formControlName="nom" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="adresse">Adresse</label>
+    <input formControlName="adresse" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="ville">Ville</label>
+    <input formControlName="ville" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="codePostal">Code postale</label>
+    <input formControlName="codePostal" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary mt-2">Envoyer</button>
+  </div>
+</form>
