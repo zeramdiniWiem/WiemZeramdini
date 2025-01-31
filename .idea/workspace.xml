@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec7d990-6e1a-44ea-b26a-e055aea6605e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_project/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml-old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_front/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/.mvn/jvm.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/.mvn/maven.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/src/main/java/wiem/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/src/test/java/wiem/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/app1-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/classes/wiem/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/surefire-reports/2025-01-31T21-49-22_262.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/surefire-reports/TEST-wiem.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/surefire-reports/wiem.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app1/target/test-classes/wiem/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/.mvn/jvm.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/.mvn/maven.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/src/main/java/wiem/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/src/test/java/wiem/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/app2-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/classes/wiem/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/surefire-reports/2025-01-31T21-49-49_872.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/surefire-reports/TEST-wiem.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/surefire-reports/wiem.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app2/target/test-classes/wiem/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_front/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project_front/src/environments/environment.prod.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +35,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\myproject\\project_front\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738330330376</updated>
       <workItem from="1738330331167" duration="5282000" />
-      <workItem from="1738355454447" duration="4100000" />
+      <workItem from="1738355454447" duration="4581000" />
     </task>
     <servers />
   </component>
