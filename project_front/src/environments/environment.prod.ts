@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://backend:3000',
+  apiUrl: 'http://104.45.140.13:3000',
   prefix: 'api'
 };
