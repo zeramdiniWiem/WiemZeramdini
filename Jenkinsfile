@@ -29,7 +29,7 @@
                  stage('Build Frontend') {
                      steps {
                          dir('project_front') {
-                             sh 'npm run build'
+                             sh 'npx ng build --prod'
                          }
                      }
                  }
