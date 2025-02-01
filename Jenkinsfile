@@ -33,8 +33,8 @@ pipeline {
         stage('Deploy with Docker Compose') {
             steps {
                 dir('WiemZeramdini') {
-                    sh 'docker-compose down'
-                    sh 'docker-compose up -d'
+                    sh '/var/jenkins_home/bin/docker-compose down'
+                    sh '/var/jenkins_home/bin/docker-composee up -d'
                 }
             }
         }
