@@ -33,8 +33,8 @@
                  stage('Deploy with Docker Compose') {
                      steps {
                          dir('WiemZeramdini') {
-                             sh 'docker-compose down'
-                             sh 'docker-compose up -d --build'
+                             sh 'docker compose down'
+                             sh 'docker compose up -d --build'
                          }
                      }
                  }
