@@ -6,6 +6,10 @@ WORKDIR /usr/src/app
 
 # Copy the package.json and install dependencies
 COPY package*.json ./
+
+# Copy the custom Nginx configuration file
+COPY nginx.conf /etc/nginx/nginx.conf
+
 RUN npm install
 
 # Copy the Angular source code
