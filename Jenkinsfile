@@ -22,7 +22,10 @@
                  stage('Install Frontend Dependencies') {
                      steps {
                          dir('project_front') {
-                             sh 'npm install'
+                            sh 'rm -rf node_modules'
+                            sh 'rm -f package-lock.json'
+                            sh 'npm install'
+                            sh 'npm install @angular-devkit/build-angular@latest --save-dev'
                          }
                      }
                  }
