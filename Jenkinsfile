@@ -24,7 +24,7 @@
                          dir('project_front') {
                             sh 'rm -rf node_modules'
                             sh 'npm install'
-                            sh 'npm install @angular-devkit/build-angular:browser --save-dev'
+                            sh 'npm install @angular-devkit/build-angular --save-dev'
                          }
                      }
                  }
