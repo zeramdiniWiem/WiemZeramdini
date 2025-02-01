@@ -25,6 +25,7 @@
                             sh 'rm -rf node_modules'
                             sh 'rm -f package-lock.json'
                             sh 'npm install'
+                            sh 'npm install @angular-devkit/build-angular --save-dev'
                          }
                      }
                  }
