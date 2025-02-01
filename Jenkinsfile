@@ -4,17 +4,9 @@
                 nodejs 'NodeJS'
              }
              environment {
-                 DOCKER_COMPOSE = '/usr/local/bin/docker-compose'
+                 PATH = "/usr/local/bin:${env.PATH}"
              }
              stages {
-                 stage('Verify Docker Compose') {
-                    steps {
-                        script {
-                            sh 'echo $PATH'
-                            sh '${DOCKER_COMPOSE} --version'
-                        }
-                    }
-                 }
                  stage('Checkout') {
                      steps {
                          git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/zeramdiniWiem/WiemZeramdini'
@@ -44,8 +36,8 @@
                  stage('Deploy with Docker Compose') {
                      steps {
                          dir('WiemZeramdini') {
-                             sh '${DOCKER_COMPOSE} down'
-                             sh '${DOCKER_COMPOSE} up -d'
+                             sh 'docker-compose down'
+                             sh 'docker-compose up -d'
                          }
                      }
                  }
