@@ -3,9 +3,6 @@
              tools {
                 nodejs 'NodeJS'
              }
-             environment {
-                 NODE_ENV = 'production'
-             }
              stages {
                  stage('Checkout') {
                      steps {
@@ -22,9 +19,7 @@
                  stage('Install Frontend Dependencies') {
                      steps {
                          dir('project_front') {
-                            sh 'rm -rf node_modules'
                             sh 'npm install'
-                            sh 'npm install @angular-devkit/build-angular --save-dev'
                          }
                      }
                  }
