@@ -6,9 +6,11 @@ require('dotenv').config();
 const app = express();
 
 // Configuration CORS pour donner lacces a communiquer entre front et back
-app.use(cors(  {origin: /*'http://localhost:4200'*/ 'http://104.45.140.138:3000'} )); // Activer CORS pour toutes les origines
-// Pour restreindre à une origine spécifique, utilisez :
-// app.use(cors({ origin: 'http://localhost:4200' }));
+app.use(cors({
+    origin: 'http://localhost:3000', // Replace with your frontend URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type'],
+}));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
